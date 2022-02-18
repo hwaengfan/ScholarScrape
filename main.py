@@ -9,8 +9,6 @@ options = Options()
 options.headless = True
 
 # input('Enter username on Scholarship.com: ')
-userName = '21hoangphan@gmail.com'
-passWord = '04182003'  # input('Enter password on Scholarship.com: ')
 driver = webdriver.Chrome(
     executable_path=r'C:\Chromedriver\chromedriver.exe', chrome_options=options)
 
